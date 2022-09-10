@@ -1,0 +1,213 @@
+/*------------------------------------
+- COLOR primary
+------------------------------------*/
+.alert-primary {
+  color: #085a8c;
+  background-color: #ddf1fd;
+  border-color: #cae9fb;
+}
+
+.alert-primary hr {
+  border-top-color: #b2dffa;
+}
+
+.alert-primary .alert-link {
+  color: #053b5c;
+}
+
+.badge-primary {
+  color: #212529;
+  background-color: #1da1f2;
+}
+
+.badge-primary[href]:hover,
+.badge-primary[href]:focus {
+  color: #212529;
+  background-color: #0b85d0;
+}
+
+.bg-primary {
+  background-color: #1da1f2 !important;
+}
+
+a.bg-primary:hover,
+a.bg-primary:focus,
+button.bg-primary:hover,
+button.bg-primary:focus {
+  background-color: #0b85d0 !important;
+}
+
+.border-primary {
+  border-color: #1da1f2 !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1da1f2;
+  border-color: #1da1f2;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #0c8ede;
+  border-color: #0b85d0;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(29, 161, 242, 0.5);
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+  color: #fff;
+  background-color: #1da1f2;
+  border-color: #1da1f2;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #0b85d0;
+  border-color: #0b7cc1;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(29, 161, 242, 0.5);
+}
+
+.btn-outline-primary {
+  color: #1da1f2;
+  background-color: transparent;
+  border-color: #1da1f2;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #1da1f2;
+  border-color: #1da1f2;
+}
+
+.btn-outline-primary:focus,
+.btn-outline-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(29, 161, 242, 0.5);
+}
+
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
+  color: #1da1f2;
+  background-color: transparent;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.show > .btn-outline-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #1da1f2;
+  border-color: #1da1f2;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus,
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(29, 161, 242, 0.5);
+}
+
+.list-group-item-primary {
+  color: #085a8c;
+  background-color: #cae9fb;
+}
+
+.list-group-item-primary.list-group-item-action:hover,
+.list-group-item-primary.list-group-item-action:focus {
+  color: #085a8c;
+  background-color: #b2dffa;
+}
+
+.list-group-item-primary.list-group-item-action.active {
+  color: #212529;
+  background-color: #085a8c;
+  border-color: #085a8c;
+}
+
+.table-primary,
+.table-primary > th,
+.table-primary > td {
+  background-color: #cae9fb;
+}
+
+.table-hover .table-primary:hover {
+  background-color: #b2dffa;
+}
+
+.table-hover .table-primary:hover > td,
+.table-hover .table-primary:hover > th {
+  background-color: #b2dffa;
+}
+
+.text-primary {
+  color: #1da1f2 !important;
+}
+
+a.text-primary:hover,
+a.text-primary:focus {
+  color: #0b85d0 !important;
+}
+
+.list-group-item.active {
+  background-color: #1da1f2;
+  color: white;
+  border-color: #1da1f2;
+}
+
+.search-bar > span {
+  background-color: white;
+  border-bottom-left-radius: 2rem;
+  border-top-left-radius: 2rem;
+  border: 1px solid #ced4da;
+  border-right: none;
+}
+
+.search-bar > input {
+  background-color: white;
+  border-bottom-right-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border: 1px solid #ced4da;
+  border-left: none;
+}
+
+.search-bar > input:hover .search-bar > input:focus .search-bar > input:active {
+  box-shadow: none !important;
+  outline: none !important;
+  border-color: #ced4da;
+}
+
+.form-control:focus,
+.btn:focus {
+  box-shadow: none;
+
+  border-color: #ced4da;
+}
+
+.nav-link {
+  color: #1da1f2;
+  padding: 0.3rem 1rem;
+}
+
+.small-text {
+  font-size: 0.85rem;
+}
+
+.medium-text {
+  font-size: 0.92rem;
+}
+
+.bold {
+  font-weight: 500;
+}
+.normal {
+  font-weight: normal;
+}
